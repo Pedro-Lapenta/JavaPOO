@@ -13,13 +13,38 @@ public class Aluno {
     private double altura;
 
     public Aluno(String nome, int idade){
-        this.nome = nome;
-        this.idade = idade;
+        setNome(nome);
+        setIdade(idade);
     }
 
-    public void setMedidas(double peso, double altura){
-        this.peso = peso;
-        this.altura = altura;
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        if (idade > 0){
+            this.idade = idade;      
+        } else {
+            throw new IllegalArgumentException("Idade invalida!!");
+        }
+ 
+    }
+
+
+    public void setPeso(double peso){
+        if (peso > 0) {
+            this.peso = peso;
+        } else {
+            throw new IllegalArgumentException("Peso invalida!!");
+        }
+    }
+
+    public void setAltura(double altura) {
+        if (altura > 0) {
+            this.altura = altura;
+        } else {
+            throw new IllegalArgumentException("Altura invalida!!");
+        }
     }
 
     public double imc(){

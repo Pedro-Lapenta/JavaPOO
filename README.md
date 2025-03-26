@@ -1,7 +1,7 @@
 # Resolução de Listas de Exercícios - Programação Orientada a Objetos em Java
 
 ## Descrição
-Este repositório apresenta a resolução de listas de exercícios referentes à disciplina de Programação Orientada a Objetos (POO), ministrada pelo professor Danilo Eler no terceiro semestre do curso de Ciência da Computação da FCT Unesp.  
+Este repositório apresenta a resolução de listas de exercícios referentes à disciplina de Programação Orientada a Objetos (POO), ministrada pelo professor Danilo Eler no terceiro semestre do curso de Ciência da Computação da FCT Unesp. 
 
 ## Estrutura do Repositório
 A organização das listas segue a estrutura abaixo:
