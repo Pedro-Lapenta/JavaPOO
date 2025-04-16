@@ -37,8 +37,8 @@ A organização das listas segue a estrutura abaixo:
 2. Abra a pasta do exercício desejado em sua IDE.
 3. Compile e execute os arquivos `.java` conforme necessário:
    ```sh
-   javac Exercicio1.java
-   java Exercicio1
+   javac Resolucao1.java
+   java Resolucao1
    ```
 
 
