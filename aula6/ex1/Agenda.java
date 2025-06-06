@@ -46,7 +46,6 @@ public class Agenda {
     public void exibirTodasPessoas(){
 
         for (int i = 0; i < cont; i++){
-            int j = 0;
 
             System.out.println("Nome: " + pessoas[i].getNome());
             System.out.println("Contatos: ");
