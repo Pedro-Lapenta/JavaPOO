@@ -56,9 +56,8 @@ public class Universidade {
     public void exibirDocentes(){
         for (int i = 0; i < contDep; i++){
             for (int j = 0; j < departamentos[i].getCont(); j++){
-                Funcionario f = departamentos[i].getFuncionarios()[j];
-                if (f instanceof Docente){
-                    f.exibir();
+                if (departamentos[i].getFuncionarios()[j] instanceof Docente){
+                    departamentos[i].getFuncionarios()[j].exibir();
                 }
             }
         }
